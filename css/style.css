@@ -6,6 +6,10 @@ html, body
 .right{float: right}
 .left{float: left}
 h1{text-align: center}
+#content {
+  padding:1em;
+
+}
 #home, footer
 {
     margin: 0 auto;
@@ -40,3 +44,5 @@ a:hover, a {text-decoration: none}
 .clearfix {
     zoom:1;
 }
+
+.plink {display: none;}
