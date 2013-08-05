@@ -1,0 +1,119 @@
+p {text-align : justify;line-height : 1.5em;
+    font-family:verdana;
+    }
+    li{ font-family:Verdana, Arial, Helvetica, sans-serif;
+r:#996600;  }
+.intro {font-size: 150%; font-family: Courier New,Courier,monospace;}
+ a {text-decoration:none;}
+ a:hover{text-decoration:underline;}
+
+ p img {
+     margin: 10px;
+     }
+ .derecha { float: right}
+ .izquierda {float: left}
+ #gurukula span {
+     color: blue
+ }
+ #nav ul, #nav li {display: inline}
+
+    header {
+
+    width:100%;
+
+    float:left;
+
+    background:#ffffff;
+
+    background:-moz-linear-gradient(top, ##ffffff 0%, #e4e0e0 100%);
+
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff),color-stop(100%, #e4e0e0));
+
+    background:-webkit-linear-gradient(top, ##ffffff 0%, #e4e0e0 100%);
+
+    background:-o-linear-gradient(top, ##ffffff 0%, #e4e0e0 100%);
+
+    background:-ms-linear-gradient(top, ##ffffff 0%, #e4e0e0 100%);
+
+    background:linear-gradient(to bottom, #ffffff 0%, #e4e0e0 100%);
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr:#ffffff, endColorstr:#e4e0e0, GradientType=0);
+
+    box-shadow:0px 3px 5px #000;
+
+    -moz-box-shadow:0px 3px 5px #000;
+
+    -webkit-box-shadow:0px 3px 5px #000;
+
+    }
+
+    #subheader{
+
+    width:100%;
+
+    margin:auto;
+
+    padding:0px 30px;;
+
+    }
+
+    #logotipo {
+
+    float:left;
+
+    width:700px;
+
+    padding:20px;
+
+    margin:auto;
+
+    }
+
+    header #subheader nav {
+
+    width:460px;
+
+    float:left;
+
+    padding:30px 0px;
+
+    text-align:right;
+
+    }
+
+    header #subheader nav ul li {
+
+    display:inline;
+
+    }
+
+    header #subheader nav ul li a {
+
+    color:#000;
+
+    font-famyli:verdana;
+
+    font-size:20px;
+
+    text-decoration:none;
+
+    padding:10px;
+
+    border-radius:2px;
+
+    -moz-border-radius:2px;
+
+    -webkit-border-radius:2px;
+
+    }
+
+    header #subheader nav ul li a:hover{
+
+    color:#fff;
+
+    background:#1798af;
+
+    text-decoration:none;
+
+    }
+

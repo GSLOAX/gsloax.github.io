@@ -1,0 +1,42 @@
+html, body
+{
+  background-image: url('http://flujos.org/media/brickwall.png');
+  height: 100%;
+}
+.right{float: right}
+.left{float: left}
+h1{text-align: center}
+#home, footer
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+}
+
+footer
+{
+  clear: both;
+  margin: 2em auto;
+  position: relative;
+  border: 1px solid #ddd;
+}
+footer nav {margin: 1em 0}
+footer a img{ max-width: 100px;max-height: 30px;}
+footer a {margin: 1em;}
+
+#content ul, #content ul li, footer ul, footer li {display: inline}
+a:hover, a {text-decoration: none}
+
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}

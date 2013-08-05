@@ -1,0 +1,40 @@
+/* https://gist.github.com/debloper/1476243 */
+.sticker
+{
+      float: left;
+      margin: 2em;
+
+}
+.sticker h2 {
+  text-align: center;
+  letter-spacing: -1px;
+  color: rgba(0,0,255,0.5);
+  text-shadow: 0 0 8px #333;
+
+}
+i{color: #C72536;}
+.sticker i {
+    font-size: 1000%;
+    cursor: pointer;
+    color: #C72536;
+    width: 50%;
+    text-shadow: 0 0 8px #333;
+}
+.sticker i:hover {
+    -webkit-animation: pusate 1s infinite alternate;
+    -moz-animation: pusate 1s infinite alternate;
+    -animation: pusate 1s infinite alternate;
+    text-shadow: 0 0 8px rgba(0,0,255,1);
+}
+@-webkit-keyframes pusate {
+    from { text-shadow: 0 0 10px #333; }
+    to { text-shadow: 0 0 20px rgba(0,0,255,1); }
+}
+@-moz-keyframes pusate {
+    from { text-shadow: 0 0 10px #333; }
+    to { text-shadow: 0 0 20px rgba(0,0,255,1); }
+}
+@keyframes pusate {
+    from { text-shadow: 0 0 10px #333; }
+    to { text-shadow: 0 0 20px rgba(0,0,255,1); }
+}
